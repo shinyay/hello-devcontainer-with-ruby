@@ -2,6 +2,8 @@
 
 This project configures for Ruby development environment on Dev Containers.
 
+This Dockerfile adds the necessary libraries and Gems to Jekyll.
+
 ## Description
 
 ## Demo
