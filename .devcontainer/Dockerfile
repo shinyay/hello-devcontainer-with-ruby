@@ -14,3 +14,7 @@ FROM ruby:3.3.0-slim-bullseye
 RUN apt-get update && apt-get -y install curl git gcc make
 
 RUN gem install jekyll bundler
+
+WORKDIR /workspace
+
+EXPOSE 4000
