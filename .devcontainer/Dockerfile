@@ -11,7 +11,7 @@ FROM ruby:3.3.0-slim-bullseye
 #     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
 #     && chmod 0440 /etc/sudoers.d/$USERNAME
 
-RUN apt-get update && apt-get -y install curl git gcc make
+RUN apt-get update && apt-get -y install build-essential zlib1g-dev
 
 RUN gem install jekyll bundler
 
