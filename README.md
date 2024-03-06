@@ -1,6 +1,6 @@
 # Hello Dev Containers with Ruby
 
-Overview
+This project configures for Ruby development environment on Dev Containers.
 
 ## Description
 
