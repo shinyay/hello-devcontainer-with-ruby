@@ -13,7 +13,7 @@ FROM ruby:3.3.0-slim-bullseye
 
 RUN apt-get update && apt-get -y install build-essential zlib1g-dev
 
-RUN gem install jekyll bundler
+RUN gem install jekyll bundler jekyll-compose
 
 WORKDIR /workspace
 
